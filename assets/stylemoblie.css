@@ -1,0 +1,47 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .card {
+        height: 360px;
+        position: absolute;
+        top: 664px;
+        left: 0px;
+        width: 100%;
+
+    }
+
+    .outside {
+        left: -38px;
+    }
+
+    .block {
+        display: block;
+        width: 100%;
+    }
+
+    .frames {
+        display: block;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 601px)and (max-width:992px) {
+    .card {
+        width: 280px;
+        height: 310px;
+        position: absolute;
+        top: 32px;
+        left: 44px;
+    }
+
+    .block {
+        position: absolute;
+        top: 154px;
+        right: 347px;
+        perspective: 1088px;
+    }
+
+    .frames {
+        width: 290px;
+        height: 118px;
+    }
+}
